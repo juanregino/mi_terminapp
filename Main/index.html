@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../main.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+    <link rel="shortcut icon" href="./Images/icons8-autobús-48.png" type="image/x-icon">
     <title>Mi Terminapp</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
         <div class="logo-nav">Mi Terminapp</div>
         <div class="ul-nav">
           <ul class="ul-items">
-            <li><a href="#">Inicio</a></li>
+            <li><a href="#section-slider">Inicio</a></li>
             <li><a href="">Destinos</a></li>
             <li><a href="">Nosotros</a></li>
             <li >
@@ -25,15 +26,15 @@
 
               <li><a>Ingles</a></li>
              </ul>
-            </li>
-            <button class="button-contact">Contacto</button>
+            </li >
+            <a href="#footer" class="button-contact">Contacto</a>
           </ul>
         </div>
       </nav>
     </header>
     <div class="space"></div>
     <main>
-      <section>
+      <section id="section-slider">
         <!-- <div>
        <h1 class="title">Slider 3D con puro CSS</h1>
     </div> -->
@@ -47,19 +48,19 @@
 
             <div class="slider-cards">
               <label class="slider-card" for="item-1" id="selector-1">
-                <img src="./Images/Slide Item — 1.png" alt="santamarta" />
+                <img src="./Images/santa_marta.png" alt="santamarta" />
               </label>
               <label class="slider-card" for="item-2" id="selector-2">
-                <img src="./Images/Slide Item — 2.png" alt="medellin" />
+                <img src="./Images/medellin.png" alt="medellin" />
               </label>
               <label class="slider-card" for="item-3" id="selector-3">
-                <img src="./Images/Slide Item — 3.png" alt="pereira" />
+                <img src="./Images/pereira.png" alt="pereira" />
               </label>
               <label class="slider-card" for="item-4" id="selector-4">
-                <img src="./Images/Slide Item — 4.png" alt="bogota" />
+                <img src="./Images/bogota.png" alt="bogota" />
               </label>
               <label class="slider-card" for="item-4" id="selector-5">
-                <img src="./Images/Slide Item — 5.png" alt="barranquilla" />
+                <img src="./Images/barranquilla.png" alt="barranquilla" />
               </label>
             </div>
           </div>
@@ -73,12 +74,12 @@
           </div>
           <div class="test">
             <img
-              src="./Images/burger_sandwich_PNG4135 1.png"
+              src="./Images/icons8-hamburguesa-48.png"
               alt="burguer-icon"
             />
             <img src="./Images/Soda Can.png" alt="soda-icon" />
             <img src="./Images/🦆 icon _plus_.png" alt="plus-icon" />
-            <img src="./Images/🦆 icon _bus_.png" alt="bus-icon" />
+            <img src="./Images/icons8-autobús-48.png" alt="bus-icon" />
           </div>
           <div class="button-icons">
             <button>Conoce mas</button>
@@ -212,6 +213,8 @@
 
       <section class="section-payments">
         <div class="cont-payments">
+
+          <h2>Medios de pago</h2>
             <div class="box1">
                 <div class="payment-card">
                   <img src="./Images/payments/baloto-1 1.png" alt="baloto img">
@@ -225,7 +228,10 @@
             </div>
             <div class="box2">
                 <div class="payment-card">
+                  <div class="cont-img-payment"></div>
                   <img src="./Images/payments/davi 1.png" alt="">
+                  <h1></h1>
+                  <p></p>
                 </div>
                 <div class="payment-card">
                   <img src="./Images/payments/efecty 1.png" alt="">
@@ -255,7 +261,7 @@
 
     </main>
 
-   <footer>
+   <footer id="footer">
        
        <div class="container-footer-all">
         
@@ -273,15 +279,15 @@
                     <h1>Redes Sociales</h1>
 
                     <div class="row">
-                        <i class='bx bxl-facebook'></i>
+                        <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
                         <label>Siguenos en Facebook</label>
                     </div>
                     <div class="row">
-                        <i class='bx bxl-twitter'></i>
+                        <a href=""><i class='bx bxl-twitter'></i></a>
                         <label>Siguenos en Twitter</label>
                     </div>
                     <div class="row">
-                        <i class='bx bxl-instagram-alt' ></i>
+                       <a href="https://www.instagram.com/"> <i class='bx bxl-instagram-alt' ></i></a>
                         <label>Siguenos en Instagram</label>
                     </div>
 
