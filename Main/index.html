@@ -11,25 +11,38 @@
   <body>
     <header>
       <nav>
+        
         <div class="logo-nav">Mi Terminapp</div>
+         <input type="checkbox" id="check">
+        <label for="check" class="btn-check">
+          <div></div>
+          <div></div>
+          <div></div>
+          <!-- <i class='bx bx-list-ul'></i> -->
+        </label>
         <div class="ul-nav">
           <ul class="ul-items">
             <li><a href="#section-slider">Inicio</a></li>
             <li><a href="">Destinos</a></li>
             <li><a href="">Nosotros</a></li>
             <li >
-             <a href="#" >Lenguaje</a>
-             <ul class="drop">
-              <li>
-                <a>Español</a>
+               <select name="language" id="language" onchange="location=this.value">
+                <option value="login.html" selected>Idioma</option>
+                <option value="login.html" >Español</option>
+                <option value="#footer" data-img="\Images\icons8-estados-unidos-16.png">Ingles</option>
+               </select>
               </li>
 
-              <li><a>Ingles</a></li>
+              <li> <a href="#footer" class="button-contact">Contacto</a></li>
+
              </ul>
-            </li >
-            <a href="#footer" class="button-contact">Contacto</a>
+
+
+            
+            
           </ul>
         </div>
+       
       </nav>
     </header>
     <div class="space"></div>
