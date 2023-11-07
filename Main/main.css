@@ -91,7 +91,7 @@ a.button-contact:hover {
   height: 10vh;
 }
 
-select {
+select#language{
   /* appearance: none; */
   /* background-image: url("./Main/Images/icons8-españa-2-16.png"); */
   /* -webkit-appearance: none; */
